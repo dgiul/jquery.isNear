@@ -17,5 +17,7 @@ $('body').mousemove(function(event) {
 });
 ```
 
+Since this code will fire with every single mouse movement, it's also recommended to throttle those requests. For info on how to do that, check out [jQuery throttle / debounce](http://benalman.com/projects/jquery-throttle-debounce-plugin/) by ["Cowboy" Ben Alman](https://github.com/cowboy).
+
 ## License
 MIT License
